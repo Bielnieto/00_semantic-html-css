@@ -11,13 +11,15 @@ body {
 header {
     background-color: #3498db;
     color: #fff;
-    padding: 1em;
+    padding: 2px;
+   
     text-align: center;
 }
 
 main {
     display: flex;
     padding: 2em;
+    padding-top: 5em;
 }
 
 section {
@@ -49,6 +51,7 @@ input, textarea {
     border-radius: 4px;
     margin-bottom: 1em;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 button {
@@ -86,7 +89,6 @@ a:hover {
 footer {
     background-color: #3498db;
     color: #fff;
-    padding: 1em;
     text-align: center;
     position: fixed;
     bottom: 0;
