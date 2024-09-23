@@ -126,9 +126,7 @@ header,
 main,
 nav,
 section,
-summary {
-  display: block;
-}
+
 
 /* Normalize vertical alignment */
 
@@ -186,6 +184,20 @@ input[type="button"],
 input[type="reset"],
 input[type="submit"] {
   cursor: pointer;
+  padding: 0.8em 1.5em; /* add some padding for better touch target */
+  font-size: 1rem; /* set a consistent font size */
+  border: none; /* remove default border */
+  border-radius: 4px; /* add a subtle border radius */
+  background-color: #e74c3c; /* set a default background color */
+  color: #fff; /* set a default text color */
+  transition: background-color 0.3s ease; /* add a transition effect */
+}
+
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+  background-color: #c0392b; /* change background color on hover */
 }
 
 /* Normalize label styles */
